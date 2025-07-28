@@ -31,6 +31,16 @@ print("\n" + "="*50)
 # 5. Print the result in a sentence like "The area is 50."
 # YOUR CODE HERE:
 
+def calculate_area(width, height):
+    return width* height
+
+def calculate_area(area):
+  width = 10
+  height = 5
+  print(f"The area is:{area:.2f}")
+
+calculate_area(10*5)
+
 
 
 print("\n" + "="*50)
