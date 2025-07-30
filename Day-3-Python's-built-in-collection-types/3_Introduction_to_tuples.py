@@ -29,6 +29,10 @@ print("\n" + "="*50)
 # 2. Print the entire tuple.
 # 3. Print a sentence: "The x-coordinate is [your x value] and the y-coordinate is [your y value]."
 # YOUR CODE HERE:
+point = (150, 250)
+print(point)
+print(f"Sentence: The x-coordinate is {point[0]} and the y-cooordinate is {point[1]}.")
+
 
 
 
